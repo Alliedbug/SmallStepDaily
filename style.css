@@ -1,4 +1,103 @@
 html {
   height: 100%;
   width: 100%;
+  
 }
+
+/*Text for the header of the page*/
+.headerText {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.paragraphCircle {
+  background: green;
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  top: 165px;
+  left: 120px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.factCircle1 {
+  background: lightgreen;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 165px;
+  right: 150px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.factCircle2 {
+  background: lightgreen;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 280px;
+  right: 490px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.factCircle3 {
+  background: lightgreen;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 500px;
+  right: 250px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+img {
+  border-radius: 50%;
+}
+
+/*Text for the steak count at the bottom of the page*/
+.streakText {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+  align-items: center;
+}
+
