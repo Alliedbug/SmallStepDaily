@@ -15,15 +15,14 @@ p {
   font-size: 30px;
   font-weight: bold;
   position: fixed;
-  top: 30px;
   transform: translateX(-50%);
   left: 50%;
 }
 
 .paragraphCircle {
   background: #496b45;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   position: fixed;
   top: 165px;
   left: 140px;
@@ -41,8 +40,8 @@ p {
 
 .circleBorder {
   background: #33543c;
-  width: 420px;
-  height: 420px;
+  width: 470px;
+  height: 470px;
 	z-index: -1;
   position: fixed;
   top: 155px;
@@ -53,8 +52,27 @@ p {
 
 .factCircle1 {
   background: #607a5d;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  top: 165px;
+  right: 210px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.factCircle1:hover{
+  background: #6a8567;
+  width: 270px;
+  height: 270px;
   position: fixed;
   top: 165px;
   right: 210px;
@@ -72,8 +90,27 @@ p {
 
 .factCircle2 {
   background: #607a5d;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  top: 280px;
+  right: 510px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.factCircle2:hover{
+  background: #6a8567;
+  width: 270px;
+  height: 270px;
   position: fixed;
   top: 280px;
   right: 510px;
@@ -91,8 +128,27 @@ p {
 
 .factCircle3 {
   background: #607a5d;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  top: 500px;
+  right: 250px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.factCircle3:hover{
+  background: #6a8567;
+  width: 270px;
+  height: 270px;
   position: fixed;
   top: 500px;
   right: 250px;
@@ -110,19 +166,9 @@ p {
 
 img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 325px;
+  height: 325px;
   position: fixed;
   bottom: 130px;
   left: 745px;
 }
-
-/*Text for the steak count at the bottom of the page*/
-.streakText {
-  position: fixed;
-  bottom: 1px;
-  left: 10px;
-  font-size: 20px;
-  align-items: center;
-}
-
