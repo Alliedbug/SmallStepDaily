@@ -19,6 +19,7 @@ p {
   left: 50%;
 }
 
+/* Formatting for the daily step circle*/
 .paragraphCircle {
   background: #496b45;
   width: 450px;
@@ -38,6 +39,7 @@ p {
   overflow-wrap: anywhere;
 }
 
+/* Border for daily step circle */
 .circleBorder {
   background: #33543c;
   width: 470px;
@@ -50,13 +52,14 @@ p {
   display: flex;
 }
 
+/* Formatting for fact circle*/
 .factCircle1 {
   background: #607a5d;
   width: 250px;
   height: 250px;
   position: fixed;
   top: 165px;
-  right: 210px;
+  right: 200px;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
@@ -69,13 +72,14 @@ p {
   overflow-wrap: anywhere;
 }
 
+/* Formatting for fact circle when you hover*/
 .factCircle1:hover{
   background: #6a8567;
   width: 270px;
   height: 270px;
   position: fixed;
   top: 165px;
-  right: 210px;
+  right: 200px;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
@@ -88,13 +92,14 @@ p {
   overflow-wrap: anywhere;
 }
 
+/* Formatting for fact circle*/
 .factCircle2 {
   background: #607a5d;
   width: 250px;
   height: 250px;
   position: fixed;
   top: 280px;
-  right: 510px;
+  right: 490px;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
@@ -107,13 +112,14 @@ p {
   overflow-wrap: anywhere;
 }
 
+/* Formatting for fact circle when you hover*/
 .factCircle2:hover{
   background: #6a8567;
   width: 270px;
   height: 270px;
   position: fixed;
   top: 280px;
-  right: 510px;
+  right: 490px;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
@@ -126,13 +132,14 @@ p {
   overflow-wrap: anywhere;
 }
 
+/* Formatting for fact circle*/
 .factCircle3 {
   background: #607a5d;
   width: 250px;
   height: 250px;
   position: fixed;
   top: 500px;
-  right: 250px;
+  right: 240px;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
@@ -145,13 +152,14 @@ p {
   overflow-wrap: anywhere;
 }
 
+/* Formatting for fact circle when you hover*/
 .factCircle3:hover{
   background: #6a8567;
   width: 270px;
   height: 270px;
   position: fixed;
   top: 500px;
-  right: 250px;
+  right: 240px;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
@@ -164,6 +172,7 @@ p {
   overflow-wrap: anywhere;
 }
 
+/* Formatting for the image*/
 img {
   border-radius: 50%;
   width: 325px;
