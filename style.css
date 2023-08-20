@@ -39,6 +39,18 @@ p {
   overflow-wrap: anywhere;
 }
 
+.circleBorder {
+  background: #33543c;
+  width: 420px;
+  height: 420px;
+	z-index: -1;
+  position: fixed;
+  top: 155px;
+  left: 130px;
+  border-radius: 50%;
+  display: flex;
+}
+
 .factCircle1 {
   background: #607a5d;
   width: 200px;
